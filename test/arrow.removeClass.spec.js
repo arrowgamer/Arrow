@@ -1,5 +1,3 @@
-jasmine.getFixtures().fixturesPath = 'base/test/fixtures/';
-
 // Remove class
 describe('The "arrow(node).removeClass(classname)" function', function(){
 	beforeEach(function() {

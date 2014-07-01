@@ -1,5 +1,3 @@
-jasmine.getFixtures().fixturesPath = 'base/test/fixtures/';
-
 // Add class
 describe('The "arrow(node).addClass(classname)" function', function(){
 	beforeEach(function() {
