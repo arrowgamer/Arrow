@@ -1,4 +1,4 @@
-jasmine.getFixtures().fixturesPath = 'base/test/fixtures/';
+jasmine.getFixtures().fixturesPath = 'base/spec/fixtures/';
 
 // Constructor
 describe('The "arrow(node)" function', function(){
