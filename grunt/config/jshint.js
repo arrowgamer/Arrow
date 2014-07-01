@@ -7,7 +7,5 @@ module.exports = {
 			,'Gruntfile.js'
 		]
 	}
-	,options: {
-		jshintrc : '.jshintrc'
-	}
+	,options: { jshintrc : '.jshintrc' }
 };
