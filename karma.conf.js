@@ -21,14 +21,14 @@ module.exports = function(config) {
 
 		,files: [
 			{
-				pattern: 'test/fixtures/**/*.html'
+				pattern: 'spec/fixtures/**/*.html'
 				,served: true
 				,included: false
 			}
 			,'bower_components/jquery/dist/jquery.js'
 			,'bower_components/jasmine-jquery/lib/jasmine-jquery.js'
 			,'src/*.js'
-			,'test/*.js'
+			,'spec/*.js'
 		],
 
 		plugins: [

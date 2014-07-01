@@ -15,7 +15,7 @@
 		,"grunt"
 		,"karma.conf.js"
 		,"src"
-		,"test"
+		,"spec"
 	]
 	,"dependencies": {
 		"jquery": ">=2.1.1"
