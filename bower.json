@@ -2,13 +2,17 @@
 	"name": "Arrow"
 	,"version": "0.0.0"
 	,"homepage": "https://github.com/JFusco/Arrow"
-	,"main": [
-		"dist/arrow.js"
-	]
+	,"main": "dist/arrow.js"
 	,"ignore": [
 		"**/.*"
 		,"node_modules"
-		,"components"
+		,"bower_components"
+		,"arrow-logo.png"
+		,"package.json"
+		,"Gruntfile.js"
+		,"src"
+		,"test"
+		,".*"
 	]
 	,"dependencies": {
 		"jquery": ">=2.1.1"
@@ -17,5 +21,8 @@
 	,"keywords": [
 		"javascript"
 		,"library"
+		,"js"
+		,"font-end"
+		,"web"
 	]
 }
