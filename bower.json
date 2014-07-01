@@ -1,6 +1,6 @@
 {
 	"name": "Arrow"
-	,"version": "0.0.1"
+	,"version": "0.0.0"
 	,"homepage": "https://github.com/JFusco/Arrow"
 	,"main": "dist/arrow.js"
 	,"ignore": [
