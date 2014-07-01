@@ -1,0 +1,25 @@
+{
+    "regex-selectors" : false
+    ,"unqualified-attributes" : false
+    ,"adjoining-classes" : false
+    ,"display-property-grouping" : false
+    ,"bulletproof-font-face" : false
+    ,"important" : false
+    ,"star-property-hack" : false
+    ,"box-sizing" : false
+    ,"fallback-colors" : false
+    ,"box-model" : false
+    ,"outline-none" : false
+    ,"font-sizes" : false
+    ,"universal-selector" : false
+    ,"ids" : false
+    ,"duplicate-properties" : 2
+    ,"gradients" : 2
+    ,"vendor-prefix" : 2
+    ,"zero-units" : 2
+    ,"shorthand" : 2
+    ,"qualified-headings" : 2
+    ,"unique-headings" : 2
+    ,"errors": 2
+    ,"text-indent" : 2
+}

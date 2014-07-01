@@ -1,0 +1,42 @@
+{
+	"passfail" : false
+	,"asi" : false
+	,"laxbreak" : false
+	,"bitwise" : false
+	,"boss" : false
+	,"eqeqeq" : false
+	,"eqnull" : false
+	,"evil" : false
+	,"forin" : false
+	,"immed" : false
+	,"loopfunc" : false
+	,"regexp" : false
+	,"regexdash" : false
+	,"shadow" : false
+	,"supernew" : false
+	,"nomen" : false
+	,"onevar" : false
+	,"plusplus" : false
+	,"trailing" : false
+	,"white" : false
+	,"expr" : true
+	,"curly" : true
+	,"browser" : true
+	,"laxcomma" : true
+	,"undef" : true
+	,"noarg" : true
+	,"latedef" : true
+	,"scripturl" : true
+	,"nonstandard" : true
+	,"newcap" : true
+	,"noempty" : true
+	,"sub" : true
+	,"nonew" : true
+	,"globals": {
+		"alert" : true
+		,"console" : true
+		,"module" : true
+		,"require" : true
+		,"global" : true
+	}
+}
