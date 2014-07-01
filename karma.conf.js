@@ -35,6 +35,8 @@ module.exports = function(config) {
 			'karma-jasmine'
 			,'karma-phantomjs-launcher'
 			,'karma-firefox-launcher'
+			,'karma-safari-launcher'
+			,'karma-opera-launcher'
 			,'karma-chrome-launcher'
 		]
 	});
