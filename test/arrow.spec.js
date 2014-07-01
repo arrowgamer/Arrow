@@ -1,6 +1,6 @@
 jasmine.getFixtures().fixturesPath = 'base/test/fixtures/';
 
-// Selector
+// Constructor
 describe('The "arrow(node)" function', function(){
 	beforeEach(function() {
 		loadFixtures('arrow.html');
