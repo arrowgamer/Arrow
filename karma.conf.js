@@ -1,23 +1,25 @@
 module.exports = function(config) {
 	config.set({
-		basePath: '',
+		basePath: ''
+		,frameworks: ['jasmine']
+		,autoWatch: false
+		,singleRun: true
+		,preprocessors: {}
+		,reporters: ['progress']
+		,port: 9876
+		,runnerPort: 9100
+		,colors: true
+		,logLevel: config.LOG_INFO
+		,captureTimeout: 60000
 
-		frameworks: ['jasmine'],
-
-		autoWatch: false,
-
-		singleRun: true,
-
-		customLaunchers: {
+		,customLaunchers: {
 			chrome_without_security: {
-				base: 'Chrome',
-				flags: ['--disable-web-security']
+				base: 'Chrome'
+				,flags: ['--disable-web-security']
 			}
-		},
+		}
 
-		preprocessors: {},
-
-		files: [
+		,files: [
 			{
 				pattern: 'test/fixtures/**/*.html'
 				,served: true
@@ -34,18 +36,6 @@ module.exports = function(config) {
 			,'karma-phantomjs-launcher'
 			,'karma-firefox-launcher'
 			,'karma-chrome-launcher'
-		],
-
-		reporters: ['progress'],
-
-		port: 9876,
-
-		runnerPort: 9100,
-
-		colors: true,
-
-		logLevel: config.LOG_INFO,
-
-		captureTimeout: 60000
+		]
 	});
 };
