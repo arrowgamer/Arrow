@@ -5,14 +5,17 @@
 	,"main": "dist/arrow.js"
 	,"ignore": [
 		"**/.*"
+		,".*"
+		,"*.md"
 		,"node_modules"
 		,"bower_components"
 		,"arrow-logo.png"
 		,"package.json"
 		,"Gruntfile.js"
+		,"grunt"
+		,"karma.conf.js"
 		,"src"
 		,"test"
-		,".*"
 	]
 	,"dependencies": {
 		"jquery": ">=2.1.1"
